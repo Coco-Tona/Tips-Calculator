@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tips Calculator</title>
+</head>
+
+<body>
+    <div class="text-header">SPLI <br> TTER</div>
+
+    <div class="content">
+        <div class="left">
+            <div class="text-area">
+                <span class="bill">Bill</span>
+                <div class="area">
+                    <i class="fa-solid fa-dollar-sign" c></i>
+                    <input class="first" type="number">
+                </div>
+
+            </div>
+            <div class="button-area">
+                <span class="select">Select Tip %</span>
+                <div class="click">
+                    <button class="number five">5%</button>
+                    <button class="number ten">10%</button>
+                    <button class="number fifteen">15%</button>
+                    <button class="number twenty-five">25%</button>
+                    <button class="number fifty">50%</button>
+                    <input class="cus" type="number" value="" placeholder="Custom">
+                </div>
+            </div>
+            <div class="people">
+                <div class="area">
+                    <span class="of">Number of People</span>
+                    <span class="error">Can't be zero</span>
+                </div>
+                <div class="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="peop" type="number" name="" id="">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="tips-amount">
+                <div class="small">
+                    <p class="amount">Tips Amount</p>
+                    <span class="per">/ Person</span>
+                </div>
+                <div class="value">$0.00</div>
+
+            </div>
+            <div class="tips-amount-two">
+                <div class="small-two">
+                    <p class="amount-two">Total</p>
+                    <span class="per-two">/ Person</span>
+                </div>
+                <div class="value-two">$0.00</div>
+            </div>
+            <button class="res">RESET</button>
+        </div>
+    </div>
+    <!-- <div class="render"></div>
+    <div class="renderTwo"></div> -->
+    <script src="./app.js"></script>
+    <script src="./new.js"></script>
+</body>
+
+</html>
